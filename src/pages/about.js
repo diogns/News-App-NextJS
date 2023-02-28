@@ -1,9 +1,11 @@
+import PageLayout from '../components/PageLayout.jsx'
+
 export default function About() {
     return (
-        <>
-        <h1>
-            About
-        </h1>
-        </>
+        <PageLayout title='NewsApp - About'>
+            <h1>
+                About
+            </h1>
+        </PageLayout>
     )
 }
